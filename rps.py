@@ -3,7 +3,7 @@ print("Well, you can try your luck three times ")
 import random
 x=["rock","paper","scissors"]
 rand=random.choice(x)
-user = input("please enter (rock,paper,scissors) ")
+user = input("please enter (rock,paper,scissors)")
 def condition():
     if rand == "rock" and user == "rock":
         print("We got equal",)
