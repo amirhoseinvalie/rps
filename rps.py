@@ -8,7 +8,6 @@ while user != "rock" and user != "paper" and user !="scissors":
 	user = input("please enter (rock,paper,scissors)")
 else:
 	None
->>>>>>> better
 def condition():
     if rand == "rock" and user == "rock":
         print("We got equal",)
