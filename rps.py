@@ -3,9 +3,6 @@ print("Well, you can try your luck three times ")
 import random
 x=["rock","paper","scissors"]
 rand=random.choice(x)
-<<<<<<< HEAD
-user = input("please enter (rock,paper,scissors)")
-=======
 user = input("please enter (rock,paper,scissors) ")
 while user != "rock" and user != "paper" and user !="scissors":
 	user = input("please enter (rock,paper,scissors)")
