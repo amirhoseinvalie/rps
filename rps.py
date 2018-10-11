@@ -14,7 +14,7 @@ def condition():
         print("my guess was",rand)
     elif rand == "rock" and user=="paper":
         print("you have won",)
-        print(rand)
+        print("my guess was ",rand)
     elif rand == "paper" and user=="rock":
         print("i won")
         print("my guess was ",rand)
@@ -37,17 +37,18 @@ def condition():
         print("invalid string")
 condition()
 rand=random.choice(x)
-user=input("ok please einter try again (rock,paper,scissors)")
+user=input("please enter (rock,paper,scissors)")
 while user != "rock" and user != "paper" and user != "scissors":
 	user = input("please enter (rock,paper,scissors)")
 else:
 	None
 condition()
 rand=random.choice(x)
-user=input("ok please einter try again (rock,paper,scissors)")
+user=input("please enter (rock,paper,scissors)")
 while user != "rock" and user != "paper" and user != "scissors":
 	user = input("please enter (rock,paper,scissors)")
 else:
 	None
 condition()
+
 
