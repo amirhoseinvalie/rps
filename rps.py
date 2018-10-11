@@ -4,6 +4,10 @@ import random
 x=["rock","paper","scissors"]
 rand=random.choice(x)
 user = input("please enter (rock,paper,scissors) ")
+while user != "rock" and user != "paper" and user !="scissors":
+	user = input("please enter (rock,paper,scissors)")
+else:
+	None
 def condition():
     if rand == "rock" and user == "rock":
         print("We got equal",)
@@ -34,7 +38,16 @@ def condition():
 condition()
 rand=random.choice(x)
 user=input("ok please einter try again (rock,paper,scissors)")
+while user != "rock" and user != "paper" and user != "scissors":
+	user = input("please enter (rock,paper,scissors)")
+else:
+	None
 condition()
 rand=random.choice(x)
 user=input("ok please einter try again (rock,paper,scissors)")
+while user != "rock" and user != "paper" and user != "scissors":
+	user = input("please enter (rock,paper,scissors)")
+else:
+	None
 condition()
+
