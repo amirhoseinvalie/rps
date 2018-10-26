@@ -51,4 +51,20 @@ else:
 	None
 condition()
 
+rand=random.choice(x)
+user=input("please enter (rock,paper,scissors)")
+while user != "rock" and user != "paper" and user != "scissors":
+	user = input("please enter (rock,paper,scissors)")
+else:
+	None
+condition()
+
+rand=random.choice(x)
+user=input("please enter (rock,paper,scissors)")
+while user != "rock" and user != "paper" and user != "scissors":
+	user = input("please enter (rock,paper,scissors)")
+else:
+	None
+condition()
+
 
